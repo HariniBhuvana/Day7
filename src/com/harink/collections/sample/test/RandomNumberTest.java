@@ -19,7 +19,7 @@ class RandomNumberTest {
 
 		Random r = new Random();
 
-		File fileOutputStream = new File("C:\\cspro\\boy.txt");
+		File fileOutputStream = new File("C:\\harini\\RandomNumber.txt");
 
 		try (PrintWriter outputStream = new PrintWriter(fileOutputStream)) {
 			for (Integer i = 0; i < 100; i++) {

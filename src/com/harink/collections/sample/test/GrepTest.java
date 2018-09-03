@@ -12,8 +12,8 @@ class GrepTest {
 
 	@Test
 	void testCheckForSting() {
-		Grep.checkForString("C:\\cspro\\stringcount.txt", "hai");
-		assertEquals(437, Grep.checkForString("C:\\cspro\\stringcount.txt", "hai"));
+		Grep.checkForString("C:\\harini\\harin.txt", "hai");
+		assertEquals(437, Grep.checkForString("‪C:\\harini\\harin.txt", "hai"));
 	}
 
 }
